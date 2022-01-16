@@ -1,0 +1,83 @@
+
+/*----------Grid---------
+    xs (for phones - screens less than 768px wide)
+    sm (for tablets - screens equal to or greater than 768px wide)
+    md (for small laptops - screens equal to or greater than 992px wide)
+    lg (for laptops and desktops - screens equal to or greater than 1200px wide)
+
+    Class prefix 	.col-xs 	.col-sm 	.col-md 	.col-lg
+    Screen width 	<768px 	    >=768px 	>=992px 	>=1200px
+
+    Device Min Width --------------------- Container Max Width
+        1200 px                                      1140 px
+         992 px                                       960 px
+         768 px                                       720 px
+         570 px                                       540 px
+
+--------------------------*/
+
+
+
+ /* Extra small devices (phones, 600px and down) 
+ @media only screen and (max-width: 600px) {...}*/
+
+ /* Small devices (portrait tablets and large phones, 600px and up) 
+ @media only screen and (min-width: 600px) {...}*/
+ 
+ /* Medium devices (landscape tablets, 768px and up) 
+ @media only screen and (min-width: 768px) {...}*/
+ 
+ /* Large devices (laptops/desktops, 992px and up) 
+ @media only screen and (min-width: 992px) {...}*/
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) 
+ @media only screen and (min-width: 1200px) {...}*/ 
+
+
+/*---------------------Bootstrap Grid Layout--------------------------
+======================================================================
+
+********************Desktop Layout(Large Device)**********************
+@media only screen and (min-width: 1200px) and (max-width: 1200px) {
+
+}
+********************Medium Layout(Medium Device)**********************
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+}
+********************Tablet Layout(Tablet Device)**********************
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+ 
+}
+********************Small Layout(Small Device)**********************
+@media only screen and (max-width: 767px) {
+ 
+}
+=======================================================================
+---------------------------------------------------------------------*/
+
+
+/*-------Medium Layout: 1280px--------*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+/*-------Tablet Layout: 768px---------*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+      
+}
+
+
+/*-----Wide Mobile Layout: 480px------*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+}
+
+/*------Mobile Layout: 320px---------*/
+@media only screen and (max-width: 479px) {
+ 
+   
+  
+  }
